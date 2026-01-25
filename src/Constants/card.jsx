@@ -8,7 +8,7 @@ export const cards = [
             <h1 className="m-3">Captain </h1>
             <div className=" border-white border-2 p-0.5 aspect-square w-full max-w-[50%] rounded-full flex justify-center items-center">
                 <div className="aspect-square w-full rounded-full shadow-[8px_12px_8px_2px_rgba(0,0,0,.4)] overflow-hidden">
-                    <img src="/tharun.png" className="h-full w-full "/>
+                    <img src="/none.webp" className="h-full w-full "/>
             
                 </div>
             </div>
@@ -26,7 +26,7 @@ export const cards = [
                             <div className="relative bg-white w-[90%] h-[25%] flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                             <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                 <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                    <img src="/tharun.png" className="h-full w-full "/>
+                                    <img src="/none.webp" className="h-full w-full "/>
                                 </div>
                                 
                             </div>
@@ -35,7 +35,7 @@ export const cards = [
                             <div className="relative bg-white w-[90%] h-[25%]  flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                             <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                 <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                    <img src="/tharun.png" className="h-full w-full "/>
+                                    <img src="/none.webp" className="h-full w-full "/>
                                 </div>
                                 
                             </div>
@@ -44,7 +44,7 @@ export const cards = [
                             <div className="relative bg-white w-[90%] h-[25%] flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                             <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                 <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                    <img src="/tharun.png" className="h-full w-full "/>
+                                    <img src="/none.webp" className="h-full w-full "/>
                                 </div>
                                 
                             </div>
@@ -61,7 +61,7 @@ export const cards = [
                 <h1 className="m-3">Outreach Lead </h1>
                 <div className=" border-white border-2 p-0.5 aspect-square w-full max-w-[50%] rounded-full flex justify-center items-center">
                     <div className="aspect-square w-full rounded-full shadow-[8px_12px_8px_2px_rgba(0,0,0,.4)] overflow-hidden">
-                        <img src="/tharun.png" className="h-full w-full "/>
+                        <img src="/none.webp" className="h-full w-full "/>
                 
                     </div>
                 </div>
@@ -79,7 +79,7 @@ export const cards = [
                     <h1 className="m-3">Business Lead </h1>
                     <div className=" border-white border-2 p-0.5 aspect-square w-full max-w-[50%] rounded-full flex justify-center items-center">
                         <div className="aspect-square w-full rounded-full shadow-[8px_12px_8px_2px_rgba(0,0,0,.4)] overflow-hidden">
-                            <img src="/tharun.png" className="h-full w-full "/>
+                            <img src="/none.webp" className="h-full w-full "/>
                     
                         </div>
                     </div>
@@ -98,7 +98,7 @@ export const cards = [
                             <div className="relative bg-white w-[90%] h-[30%] flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                             <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                 <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                    <img src="/tharun.png" className="h-full w-full "/>
+                                    <img src="/none.webp" className="h-full w-full "/>
                                 </div>
                                 
                             </div>
@@ -107,7 +107,7 @@ export const cards = [
                             <div className="relative bg-white w-[90%] h-[30%]  flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                             <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                 <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                    <img src="/tharun.png" className="h-full w-full "/>
+                                    <img src="/none.webp" className="h-full w-full "/>
                                 </div>
                                 
                             </div>
@@ -127,7 +127,7 @@ export const cards = [
                                 <div className="relative bg-white w-[90%] h-[30%] flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                                 <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                     <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                        <img src="/tharun.png" className="h-full w-full "/>
+                                        <img src="/none.webp" className="h-full w-full "/>
                                     </div>
                                     
                                 </div>
@@ -136,7 +136,7 @@ export const cards = [
                                 <div className="relative bg-white w-[90%] h-[30%]  flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                                 <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                     <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                        <img src="/tharun.png" className="h-full w-full "/>
+                                        <img src="/none.webp" className="h-full w-full "/>
                                     </div>
                                     
                                 </div>
@@ -155,7 +155,7 @@ export const cards = [
                                     <div className="relative bg-white w-[90%] h-[30%] flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                                     <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                         <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                            <img src="/tharun.png" className="h-full w-full "/>
+                                            <img src="/none.webp" className="h-full w-full "/>
                                         </div>
                                         
                                     </div>
@@ -164,7 +164,7 @@ export const cards = [
                                     <div className="relative bg-white w-[90%] h-[30%]  flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                                     <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                         <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                            <img src="/tharun.png" className="h-full w-full "/>
+                                            <img src="/none.webp" className="h-full w-full "/>
                                         </div>
                                         
                                     </div>
@@ -183,7 +183,7 @@ export const cards = [
                                         <div className="relative bg-white w-[90%] h-[30%] flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                                         <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                             <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                                <img src="/tharun.png" className="h-full w-full "/>
+                                                <img src="/none.webp" className="h-full w-full "/>
                                             </div>
                                             
                                         </div>
@@ -192,7 +192,7 @@ export const cards = [
                                         <div className="relative bg-white w-[90%] h-[30%]  flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                                         <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                             <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                                <img src="/tharun.png" className="h-full w-full "/>
+                                                <img src="/none.webp" className="h-full w-full "/>
                                             </div>
                                             
                                         </div>
@@ -211,7 +211,7 @@ export const cards = [
                                             <div className="relative bg-white w-[90%] h-[30%] flex items-center justify-around rounded-2xl p-1 shadow-[8px_8px_8px_2px_rgba(0,0,0,0.4)]">
                                             <div className=" border-black border-2 p-0.5 aspect-square w-[30%] max-w-[50%] rounded-full flex justify-center items-center">
                                                 <div className="aspect-square w-full rounded-full  overflow-hidden">
-                                                    <img src="/tharun.png" className="h-full w-full "/>
+                                                    <img src="/none.webp" className="h-full w-full "/>
                                                 </div>
                                                 
                                             </div>

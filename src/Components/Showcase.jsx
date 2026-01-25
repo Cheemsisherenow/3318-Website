@@ -16,9 +16,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Showcase = () => {
      useEffect(() => {
             const timer = setTimeout(() => {
-                ScrollTrigger.refresh();
-            }, 100);
-            
+                ScrollTrigger.refresh() }, 100);
             return () => clearTimeout(timer);
         }, []);
     useGSAP(()=>{
@@ -127,19 +125,22 @@ const Showcase = () => {
                          </div>            
                      </div> 
          </div> */}
+         <div className="relative w-full h-full overflow-hidden">
          <div className="s1">
-             <img src="/3318bot1.jpeg" className=" left-0 w-3/4 mask-r-from-50%"/>
+             <img src="/3318bot1.jpeg" className=" left-0 w-3/4  mask-r-from-50%"/>
              <div className="side-container1">
                  <h2> About Us</h2>
                  <h3 >We are located in 
-                     <span> {" "}970 McElvaney Ln NW, Lawrenceville, GA 30044 {" "}</span>
+                     <span> {" "}XXXXX {" "}</span> 
                      at the 
-                     <span> {" "} Gwinnett School of Mathematics, Science, and Technology (GSMST),  {" "}</span> the
-                     <span> {" "} #1 {" "}</span> high school in the state of Georgia.
+                     <span> {" "} XXXXX,  {" "}</span> the
+                     <span> {" "} #X {" "}</span> high school in the state of Georgia.
                      Each year our team consisted of the most commited and passionate students come together to design, build, and compete with a bot suited to different First Robotics Compeition's challenges.
                  </h3>
              </div>
          </div>
+         </div>
+         <div className="relative w-full h-full overflow-hidden">
          <div className="s2">
              <img src="/winning.jpg" className="absolute right-0 w-3/4 mask-l-from-70%"/>
              <div className="side-container2">
@@ -159,6 +160,7 @@ const Showcase = () => {
                      </h3>
              </div>
 
+         </div>
          </div>
 
          {/*<div className="section2">

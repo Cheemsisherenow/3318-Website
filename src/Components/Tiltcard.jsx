@@ -4,12 +4,12 @@ const Tiltcard = ({ children, className=""}) => {
         const cardRef = useRef(null);
       
         const handleMouseMove = (e) => {
-          const card = cardRef.current;
-          const rect = card.getBoundingClientRect();
-          const x = e.clientX - rect.left - rect.width / 2;
-          const y = e.clientY - rect.top - rect.height / 2;
-          const rotateX = (y / rect.height) * -15;
-          const rotateY = (x / rect.width) * 15;
+          const card = cardRef.current
+          const rect = card.getBoundingClientRect()
+          const x = e.clientX - rect.left - rect.width/2
+          const y = e.clientY - rect.top - rect.height/2
+          const rotateX = (y / rect.height) * -15
+          const rotateY = (x / rect.width) * 15
           card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
         };
         const handleMouseLeave = () => {

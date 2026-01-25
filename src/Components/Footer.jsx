@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer id="footer" className="relative bg-black bottom-0">
         <div className="text-white w-full h-[10vh] flex justify-between items-center p-5">
-            <p>Copyright © 2026. GSMST RoboDragons</p>
+            <p>Copyright © 2026. XXXXX RoboDragons</p>
             <img className="h-10 w-11" src="/3318-logo.png" alt="3318-logo"/> 
             </div>
 

@@ -18,10 +18,14 @@ body {
   max-width: 100vw;
   height: 100%;
   overflow-x: hidden;
-  background-color: black;
+  background-color: white;
   color: var(--color-dark-100);
   font-family: var(--font-semibold);
   overflow-x: hidden;
+}
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
 }
 @keyframes slideGradient {
   0% {
@@ -55,7 +59,7 @@ body {
     nav{
       @apply flex m-5 justify-center;
       .desktop-nav{
-        @apply hidden md:flex w-full fixed top-0 bg-black min-h-[7vh] items-center justify-center;
+        @apply hidden md:flex w-full fixed top-0 bg-black min-h-[7%] items-center justify-center;
         ul{
           @apply flex text-blue-300 space-x-4;
           li{
@@ -67,18 +71,13 @@ body {
         }
       }
       .mobile-nav{
-        @apply md:hidden fixed top-0 right-0 h-full min-w-[20vh] border-l border-l-neutral-300 bg-black;
-        img{
-          @apply absolute right-2 top-[1.5vh];
+        @apply md:hidden fixed  top-0 h-[5%] border-l w-full  border-l-neutral-300 bg-black;
+        .wrapper{
+          @apply  flex justify-between px-2 items-center;
         }
-        .button-open{
-          @apply opacity-100;
+        button{
+          @apply bg-black w-5 hover:bg-neutral-800
         }
-        .button-close{
-          @apply opacity-0;
-          
-        }
-
       }
     
   }
@@ -88,7 +87,7 @@ body {
     span{
       @apply font-['Orbitron'] mt-1 font-semibold;
     }
-    @apply leading-none flex mt-[0vh] h-[100vh] text-9xl flex-col justify-center items-center ;
+    @apply leading-none overflow-hidden flex mt-[0vh] h-[100vh] text-9xl flex-col justify-center items-center ;
     
     .p-container{
       @apply flex mt-[7vh] w-full justify-evenly;
@@ -122,13 +121,16 @@ body {
       .underline-animation2{
         @apply h-2 absolute w-full left-0 -bottom-[15%] bg-black scale-x-0 origin-left z-50;
       }
+      span{
+        
+      }
       
       
       .clone-container1{
-        @apply relative flex flex-col  overflow-hidden bottom-[.2rem];
+        @apply relative flex flex-col overflow-hidden ;
 
         span{
-          @apply inline-block;
+          @apply inline-block ;
         }
 
         #sc5{
@@ -143,9 +145,12 @@ body {
         #sd5{
           @apply absolute left-0 top-0;
         }
+        #s5{
+          @apply relative top-[50%];
+        }
       }
       .clone-container2{
-        @apply flex relative flex-col overflow-hidden top-[.3rem] ; /* FIX THE TOP-1, its unaligned*/
+        @apply flex relative flex-col overflow-hidden; 
 
         span{
           @apply inline-block;
@@ -163,7 +168,7 @@ body {
   }
 
   #showcase{
-    @apply font-['Orbitron'];
+    @apply font-['Orbitron'] ;
     .back{
       @apply w-full h-full;
     }
@@ -189,20 +194,10 @@ body {
     @apply relative z-0 font-[cortpa];
     
     
-
+      
     .mask{
       @apply flex absolute h-full w-full inset-0   z-100;
     }
-    
-      .wrapper{
-        @apply mx-auto p-5 flex justify-around gap-[30vh];
-
-        
-        .side-container2{
-          @apply flex flex-col items-center w-[40vh] gap-[3vh];
-
-        }
-      }
       
       
       
@@ -211,7 +206,7 @@ body {
       @apply bg-neutral-200 flex flex-col h-[200vh];
       
       .s1{
-        @apply flex h-full w-full ;
+        @apply flex h-full w-full overflow-hidden ;
         .side-container1{
           @apply absolute flex flex-col items-center justify-center gap-8  max-w-1/3 right-[12.5%] p-5;
           
@@ -229,7 +224,7 @@ body {
         
       }
       .s2{
-        @apply flex h-full w-full  mt-5;
+        @apply flex h-full w-full  mt-5 overflow-hidden;
   
         .side-container2{
           @apply absolute flex flex-col items-center justify-center gap-8  max-w-1/3 left-[5%] p-5;

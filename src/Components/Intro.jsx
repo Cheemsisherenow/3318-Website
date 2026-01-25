@@ -23,7 +23,7 @@ const Intro = ()=>{
         const chars = document.querySelectorAll('.clone-container1')
         const chars2 = document.querySelectorAll('.clone-container2')
 
-        chars2.forEach((chars)=>{
+        
             gsap.set(["#sc6"],{
                 yPercent: 200
             })
@@ -37,11 +37,12 @@ const Intro = ()=>{
                 ease: "none",
                 yPercent: "-=200",
                 
+                
             })
             
             tl2.add(roll,0)
-        })
-        chars.forEach((chars)=>{
+        
+        
             gsap.set(["#sc5","#sc7"],{
                 yPercent: -200
             })
@@ -55,10 +56,14 @@ const Intro = ()=>{
                 ease: "none",
                 yPercent: "+=200",
                 
-                
+                onComplete: () => {
+                    console.log("s5:", gsap.getProperty("#s5", "yPercent"))
+                    console.log("sc5:", gsap.getProperty("#sc5", "yPercent"))
+                    console.log("sd5:", gsap.getProperty("#sd5", "yPercent"))
+                }  
             })
             tl2.add(roll2,0)
-        })
+        
 
 
        
@@ -83,7 +88,7 @@ const Intro = ()=>{
               x: 0,
               scaleX: 1.75,
               color: '#FFA500', 
-              duration: 3,
+              duration: 2,
               ease: "power2.out"
             },"<"
           )
@@ -91,7 +96,7 @@ const Intro = ()=>{
         tl.from("#s9",{ opacity: 0, scale: .1, duration: 1, delay: .2, rotateZ: 720, ease: "back.out(1)", x:-300},"<")
         .to(".underline-animation3", {
             color: '#b30f04',
-            duration: 5,
+            duration: 3,
             ease: "power1.in", 
             
           }, "<")
@@ -110,22 +115,29 @@ const Intro = ()=>{
         tl.from("#gear",{y:-200,duration:1, opacity: 0, ease: "back.out(1.5)", stagger: 1}, "<")
         
         let moveUp = true;
-            
-        gsap.to(tl2, {
+        const mtl = gsap.timeline()  
+        mtl.to(tl2, {
             progress: 1,
             duration: 2,
             ease: "power4.inOut",
-            yoyo: true,
-            repeat: 1,
-            
-            onComplete: () => {
-                tl2.kill()
-            }
-            
-            
-            
-            
+               
+                
         })
+        .to(tl2, {
+            progress: 0,
+            duration: 2,
+            ease: "power4.inOut",
+            
+            onComplete: () =>{
+                console.log("s6:", gsap.getProperty("#s6", "yPercent"))
+                    console.log("sc6:", gsap.getProperty("#sc6", "yPercent"))
+                    console.log("sd6:", gsap.getProperty("#sd6", "yPercent"))
+                tl2.kill()
+
+            }
+        },"+=.1")
+        
+        
         gsap.to("#gear",{
             rotateZ: 360,
             repeat: -1,
@@ -137,9 +149,9 @@ const Intro = ()=>{
 
     return( // convert the px to vh
         <section id = "intro" className="bg-linear-to-b from-blue-200 to-neutral-200 m-0">
-            <div className="absolute h-126 w-1/2 top-0 right-0 z-0">
+            <div className="absolute h-[50%] w-[50%] top-0 right-0 z-0">
 
-                <Canvas camera={{position: [.5,.5,2],fov: 50}} style={{ position: 'absolute', zIndex: 0 }}>
+                <Canvas camera={{position: [.5,.5,2],fov: 50}} style={{ width: '100%', height: '100%' }}>
                     
                     <Lights/>
                     <Suspense fallback={<Html><h1 className ="text-white text-3xl uppercase">Loading...</h1></Html>}>
