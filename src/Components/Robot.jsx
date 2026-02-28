@@ -14,7 +14,7 @@ import clsx from 'clsx'
 import { Center } from '@react-three/drei'
 import { cards } from '../Constants/card'
 import Gladiator from './models/Gladiator'
-import StudioLights from './three/StudioLights'
+import Lights from './models/Lights'
 
 
 const Robot = () => {
@@ -119,7 +119,7 @@ const Robot = () => {
             <div className="w-full h-full">
             <Canvas id="robot-section" shadows={false} frameloop="always" dpr={[0.5, 1]} performance={{ min: 0.5 }} className=" bg-neutral-200 h-full" onCreated={() => setCanvasReady(true)}>
                     <group ref={groupRef}>
-                        <StudioLights/>
+                        <Lights/>
                         {load && (<Center> <Gladiator scale={12} rotation={[Math.PI, Math.PI/4, 0]}/> </Center>)}
                     </group> 
                 </Canvas>
