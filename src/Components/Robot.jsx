@@ -14,7 +14,7 @@ import clsx from 'clsx'
 import { Center } from '@react-three/drei'
 import { cards } from '../Constants/card'
 import Gladiator from './models/Gladiator'
-import StudioLights from '../../../my-react-project1/src/components/three/StudioLights'
+import StudioLights from './three/StudioLights'
 
 
 const Robot = () => {
