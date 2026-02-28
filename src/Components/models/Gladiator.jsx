@@ -9,7 +9,7 @@ import { useGLTF } from '@react-three/drei'
 
 
 export default function Gladiator(props) {
-  const { nodes, materials } = useGLTF('/models/Gladiator-transformed.glb')
+  const { nodes, materials } = useGLTF('/3318-Website/models/Gladiator-transformed.glb')
   useEffect(() => {
     Object.values(materials).forEach(material => {
       material.precision = 'lowp'
@@ -29,4 +29,4 @@ export default function Gladiator(props) {
   )
 }
 
-useGLTF.preload('/models/Gladiator-transformed.glb')
+useGLTF.preload('/3318-Website/models/Gladiator-transformed.glb')

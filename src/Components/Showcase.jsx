@@ -86,17 +86,17 @@ const Showcase = () => {
         <section id = "showcase" className=" relative z-50">
             <div className=""> 
                
-                <img src="/alliance.jpg" className="back"/>
+                <img src="/3318-Website/alliance.jpg" className="back"/>
                 <div className="absolute top-[50%] left-[50%] w-full -translate-x-1/2 -translate-y-1/2 flex flex-col items-center" id="title">
                     <h1 className="text-center " id="title"> Welcome to First Robotic Competition (FRC) </h1> 
                     <h2> Team 3318, the Robodragons!</h2>
                 </div>
                     <div className="temp">
                         <div className="mask" > 
-                            <img src="/3318mask.png" className="w-full h-full"/>
+                            <img src="/3318-Website/3318mask.png" className="w-full h-full"/>
                         </div>
                         <div id="gear-container" className="absolute flex justify-center bottom-[-5%] left-[50%] h-[42%] w-[70%] z-20 -translate-x-1/2">
-                            <img id = "rotgear" src="/gear3.png" className="relative  "/>
+                            <img id = "rotgear" src="/3318-Website/gear3.png" className="relative  "/>
                         </div>
                     </div>
             </div>
@@ -119,7 +119,7 @@ const Showcase = () => {
                          </div>
                          <div className=" w-[30%] p-5 mask-r-from-50% ">
                          <div className="aspect-square w-full max-w-[300px] rounded-full shadow-[8px_12px_8px_2px_rgba(0,0,0,.4)] overflow-hidden">
-                             <img src="/tharun.png" className="h-full w-full "/>
+                             <img src="/3318-Website/tharun.png" className="h-full w-full "/>
                          </div>
                              
                          </div>            
@@ -127,7 +127,7 @@ const Showcase = () => {
          </div> */}
          <div className="relative w-full h-full overflow-hidden">
          <div className="s1">
-             <img src="/3318bot1.jpeg" className=" left-0 w-3/4  mask-r-from-50%"/>
+             <img src="/3318-Website/3318bot1.jpeg" className=" left-0 w-3/4  mask-r-from-50%"/>
              <div className="side-container1">
                  <h2> About Us</h2>
                  <h3 >We are located in 
@@ -142,7 +142,7 @@ const Showcase = () => {
          </div>
          <div className="relative w-full h-full overflow-hidden">
          <div className="s2">
-             <img src="/winning.jpg" className="absolute right-0 w-3/4 mask-l-from-70%"/>
+             <img src="/3318-Website/winning.jpg" className="absolute right-0 w-3/4 mask-l-from-70%"/>
              <div className="side-container2">
                  <h2> 2025 Competition</h2>
                  <h3> Qualified for the 
@@ -169,7 +169,7 @@ const Showcase = () => {
                  
                      <div className="inner-container">
                      <div className=" w-[30%] p-5 ">
-                         <img src="/tharun.png" className="h-full w-full rounded-full"/>
+                         <img src="/3318-Website/tharun.png" className="h-full w-full rounded-full"/>
                      </div> 
                          <div className=" p-5 rounded-[22px] max-w-[60%]">
                              <h3> Qualified for the 

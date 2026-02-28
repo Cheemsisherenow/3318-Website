@@ -13,7 +13,7 @@ const Header = () => {
         <header>
             <nav>
                 <div className="desktop-nav">
-                    <img className="h-10 w-11" src="/3318-logo.png" alt="3318 logo"/>
+                    <img className="h-10 w-11" src="/3318-Website/3318-logo.png" alt="3318 logo"/>
                     <ul>
                         {navLinks.map(({label})=>(
                             <li key = {label} className="relative group">
@@ -28,7 +28,7 @@ const Header = () => {
                 
                 <div className="mobile-nav">
                     <div className="wrapper">
-                        <img className="relative h-10 w-11" src="/3318-logo.png" alt="3318 logo"/>            
+                        <img className="relative h-10 w-11" src="/3318-Website/3318-logo.png" alt="3318 logo"/>            
                         <button className="text-white" onClick={toggleDropdown}> ☰ </button>
                     </div>
                     <ul className={` absolute p-2  w-[40%] right-0 space-y-2 bg-neutral-400 transition-transform duration-500 ease-in-out ${dropdown ? "translate-x-0" : "translate-x-full"}`}>

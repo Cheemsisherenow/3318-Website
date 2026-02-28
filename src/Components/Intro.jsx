@@ -168,7 +168,7 @@ const Intro = ()=>{
                 
                 <div className="o-container">
                     <span id = "s2" > O </span>
-                    <img src="/gear.webp" id = "gear"/>
+                    <img src="/3318-Website/gear.webp" id = "gear"/>
                 </div>
                 
                 

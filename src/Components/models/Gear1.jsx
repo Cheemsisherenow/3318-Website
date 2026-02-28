@@ -12,7 +12,7 @@ import {useGSAP} from "@gsap/react"
 
 
 export default function Gear1(props) {
-  const { nodes, materials, scene } = useGLTF('/models/gear1-transformed.glb')
+  const { nodes, materials, scene } = useGLTF('/3318-Website/models/gear1-transformed.glb')
   const gearRef = useRef(null);
   useGSAP(() => {
     if (gearRef.current) {
@@ -39,4 +39,4 @@ export default function Gear1(props) {
   )
 }
 
-useGLTF.preload('/models/gear1-transformed.glb')
+useGLTF.preload('/3318-Website/models/gear1-transformed.glb')
